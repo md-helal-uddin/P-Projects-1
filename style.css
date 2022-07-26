@@ -61,3 +61,26 @@ h2{
 footer p{
     text-align: center;
 }
+/* Style for Mobile devices */
+@media only screen and (max-width: 688px) {
+    .flexible{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    
+    }
+    .half-width{
+        width:90%;
+        margin: 5%;
+       
+    }
+    .half-width img{
+        width: 100%;
+    }
+    .Exp-box{
+        width: 80%;
+        margin: 10%;
+    }
+  }
+  
